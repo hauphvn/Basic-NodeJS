@@ -10,7 +10,7 @@ To check version of npm: ``$ npm -v``
 
 
 ### What is the 'module'
- Module is a file .js and inside this file have to define a code ``module.exports [nameA]``  
+ Module is a file .js and inside this file have to define a code ``module.exports = [nameA]``  
  When another .js file want to use that file have to define a code ``nameA = require('that file')``.  
  
  To using any module built in NodeJS:  
@@ -19,4 +19,19 @@ To check version of npm: ``$ npm -v``
  
  You can read others module at: [here](https://nodejs.org/en/docs/).  
  
- 
+ ### Module is built by third party  
+ To install:  
+ 1. Installing nmp (done when you installed nodejs)  
+ 2. Initialize npm for your project: ``$: npm init``
+ 3. By tap enter for all default.  
+ 4. After input info your project, in your project will be add a **package.json** file.  
+ 5. Installing which module third party you want with:  ``$ npm install [name modele] --save`` , (*--save* means that module will be stored your project)  
+  
+### JSON Method
+
+- Converting Object to String:  
+``JSON.stringify(nameObject)``  
+
+- Converting String to Object:  
+``JSON.parse(nameString)``  
+
