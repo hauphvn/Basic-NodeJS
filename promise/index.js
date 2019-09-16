@@ -11,13 +11,28 @@
 //         });
 //     });
 // }
-//
+
 // readFileTest('input.txt')
-// .then(function (data) {
-//     console.log(data);
+// .then(function (data1) {
+//     console.log(data1);
+//     return readFileTest('input2.txt');
 // })
+//     .then(function (data2) {
+//         console.log(data2);
+//     })
 // .catch(function (error) {
 //     console.log(error);
+// });
+
+// Other way to read multip files
+
+// Promise.all([
+//     readFileTest('input.txt'),
+//     readFileTest('input2.txt')
+// ]).then(function (values) {
+//     console.log(values);
+// }).catch(function (err) {
+//     console.log(err);
 // });
 
 // ------------------------------------------
