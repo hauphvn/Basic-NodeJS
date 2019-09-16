@@ -17,9 +17,13 @@
   },
   "homepage": "https://github.com/hauphvn/Basic-NodeJS#readme",
   "dependencies": {
+    "axios": "^0.19.0",
+    "co": "^4.6.0",
     "joi": "^14.3.1",
     "markdown": "^0.5.0",
     "password-generator": "^2.2.0",
-    "readline-sync": "^1.4.10"
+    "promise-fs": "^2.1.1",
+    "readline-sync": "^1.4.10",
+    "request": "^2.88.0"
   }
 }

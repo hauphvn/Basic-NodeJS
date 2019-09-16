@@ -35,3 +35,20 @@ To check version of npm: ``$ npm -v``
 - Converting String to Object:  
 ``JSON.parse(nameString)``  
 
+### Sync vs Async
+- Synchronous: Assume that, you have 2 tasks A and B. If you use Sync, you will only done task A and then 
+you make task B.  
+- Asynchronous: Similar you also have 2 above task. But during task A going on, you can make task B without wait 
+task A done.  
+
+
+### Callback hell
+- This is concept that show a hard code, more loop, terrible reading....  
+
+### Promise  
+
+### Async await
+- If inside a function use multip promise function, I have to put ``async`` in front of that function.  
+
+ 
+
